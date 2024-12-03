@@ -51,8 +51,8 @@ a {
     box-shadow: 0px 14px 0px 0px rpg(0,0,0,0.75);
     border-radius: 5px;
 }
+
 #hero{
-    background-image: url(/images/nathan-lemon-W7nbakRx1Ks-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -64,9 +64,12 @@ a {
     justify-content: center;
 }
 .hero h2{
+    color:#AF0032;
     font-size: 1.8rem;
     text-shadow: 2px 2px 6px #fff;
+    font-family: "Nosifer", sans-serif;
     text-align: center;
+    
 }
 .two{
     padding: 10%;
@@ -74,6 +77,14 @@ a {
 }
 .two img{
     width:25%;
+}
+.fltright{
+    float: right;
+    margin: 0 0 15px 20px;
+}
+.fltleft{
+    float: left;
+    margin: 20 0 15px 0;
 }
 .two h2,
 .two p{
@@ -114,6 +125,9 @@ a {
     font-family: "Amatic SC", sans-serif;
     margin-bottom: 1.2em;
 }
+
+
+
 /*------- Responsive Images -------*/
 img{
     width: 100%;
@@ -270,6 +284,7 @@ img{
 footer{
     margin-top: 0;
     padding: 10%;
+    color: #30385f;
     min-height: 300px;
     font-size: 1.2em;
     padding: 10%;
