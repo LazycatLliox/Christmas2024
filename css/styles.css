@@ -35,7 +35,9 @@ ul {
 .logo a{
     color:#000;
 }
-
+.home{
+    padding:0px 10px 0px 0px;
+}
 .header {
     padding-top: .5em;
     padding-bottom: .5em;
